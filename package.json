@@ -4,6 +4,7 @@
   "description": "Spotify to Twitter === A project to introduce myself to node.js and npm. It will make a tweet every time the song currently being played on Spotify on the user's machine changes and the track time passes 30 seconds.",
   "main": "main.js",
   "dependencies": {
+    "node-env-file": "^0.1.7",
     "node-spotify-webhelper": "^0.0.3",
     "twit": "^1.1.15"
   },
