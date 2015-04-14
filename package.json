@@ -1,0 +1,24 @@
+{
+  "name": "SpotifyToTwitter",
+  "version": "1.0.0",
+  "description": "Spotify to Twitter === A project to introduce myself to node.js and npm. It will make a tweet every time the song currently being played on Spotify on the user's machine changes and the track time passes 30 seconds.",
+  "main": "main.js",
+  "dependencies": {
+    "node-spotify-webhelper": "^0.0.3",
+    "twit": "^1.1.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dhruska/SpotifyToTwitter.git"
+  },
+  "author": "Donald Hruska",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhruska/SpotifyToTwitter/issues"
+  },
+  "homepage": "https://github.com/dhruska/SpotifyToTwitter"
+}
